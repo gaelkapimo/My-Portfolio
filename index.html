@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gael KAPIMO | Android Engineer</title>
+    <title>Gael KAPIMO | Mobile Engineer</title>
     <meta
       name="description"
       content="Gaël Kapimo Kaniki - Android Engineer specialized in Kotlin, Jetpack Compose and modern software architecture."
     />
-
+    <script src="https://unpkg.com/lucide@latest"></script>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -89,7 +89,9 @@
       }
     </style>
   </head>
-
+  <script>
+    lucide.createIcons();
+  </script>
   <body class="font-sans antialiased">
     <!-- HEADER -->
     <header class="max-w-3xl mx-auto px-4 sm:px-8 py-5 sticky top-0 z-50">
@@ -174,7 +176,7 @@
                 href="https://youtube.com"
                 target="_blank"
                 aria-label="YouTube"
-                class="hover:text-white hover:scale-110 transition-all duration-200"
+                class="hover:text-red hover:scale-110 transition-all duration-200"
               >
                 <i class="devicon-youtube-plain text-lg"></i>
               </a>
@@ -182,7 +184,7 @@
                 href="https://linkedin.com"
                 target="_blank"
                 aria-label="LinkedIn"
-                class="hover:text-white hover:scale-110 transition-all duration-200"
+                class="hover:text-whitz hover:scale-110 transition-all duration-200"
               >
                 <i class="devicon-linkedin-plain text-lg"></i>
               </a>
@@ -210,27 +212,37 @@
         </div>
 
         <div class="space-y-3 text-xs sm:text-sm text-zinc-400 leading-relaxed">
-          <p>
-            I am a software engineering student focused on building modern and
-            reliable native Android applications. My main expertise is Kotlin,
-            Jetpack Compose, and modern Android development practices, with a
-            strong interest in clean architecture, maintainable code, and
-            thoughtful user experiences.
-          </p>
+          <div class="space-y-3 text-xs sm:text-sm text-zinc-400 leading-relaxed">
+  <p>
+    I am a software engineering student and native Android developer focused
+    on building modern, reliable, and maintainable applications. I primarily
+    work with Kotlin, Jetpack Compose, and modern Android development practices,
+    with a strong focus on clean architecture, scalable code, and thoughtful
+    user experiences.
+  </p>
 
-          <p>
-            I enjoy transforming ideas into functional products by combining
-            solid engineering principles with practical problem-solving. I focus
-            on creating applications that are not only visually polished, but
-            also structured, scalable, and easy to maintain.
-          </p>
+  <p>
+    I enjoy turning ideas into real-world products, from designing application
+    architecture and user interfaces to implementing business logic, APIs,
+    authentication, databases, and data management. I aim to build software
+    that is not only functional and visually polished, but also well-structured,
+    testable, and easy to evolve.
+  </p>
 
-          <p>
-            Beyond mobile development, I explore backend systems, API design,
-            databases, and software architecture to better understand the
-            complete lifecycle of digital products. My goal is to grow into an
-            engineer capable of designing complete and impactful solutions.
-          </p>
+  <p>
+    Beyond Android development, I am expanding my skills in backend engineering
+    with Java and Spring Boot, as well as REST APIs, SQL databases, Firebase,
+    and software architecture. I also explore IoT and embedded systems,
+    allowing me to understand how software connects across different layers
+    of a digital product.
+  </p>
+
+  <p>
+    My goal is to become a versatile software engineer capable of designing
+    and building complete digital products, from mobile applications and
+    backend services to connected systems, while continuously improving my
+    engineering skills and problem-solving approach.
+  </p>
         </div>
 
         <div
@@ -308,9 +320,11 @@
               </div>
               <a
                 href="#"
-                class="text-xs font-mono text-zinc-300 hover:text-white transition flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
-                >View Project ↗</a
+                class="text-xs font-mono text-zinc-300 hover:text-white transition flex items-center gap-2 group"
               >
+                <i data-lucide="rocket" class="w-3.5 h-3.5"></i>
+                Coming Soon
+              </a>
             </div>
           </article>
 
@@ -347,9 +361,11 @@
                 >
               </div>
               <a
-                href="#"
+                href="https://github.com/gaelkapimo/parole-inspiree-android-app.git"
+                target="_blank"
                 class="text-xs font-mono text-zinc-300 hover:text-white transition flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
-                >View Project ↗</a
+                ><i class="devicon-github-original text-base text-zinc-300"></i>
+                View Code</a
               >
             </div>
           </article>
@@ -387,10 +403,13 @@
                 >
               </div>
               <a
-                href="#"
-                class="text-xs font-mono text-zinc-300 hover:text-white transition flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
-                >View Code ↗</a
+                href="https://github.com/gaelkapimo/My-Portfolio.git"
+                target="_blank"
+                class="text-xs font-mono text-zinc-300 hover:text-white transition flex items-center gap-2 group-hover:translate-x-0.5"
               >
+                <i class="devicon-github-original text-base text-zinc-300"></i>
+                View Code
+              </a>
             </div>
           </article>
         </div>
@@ -648,13 +667,14 @@
           </p>
           <div class="flex gap-3 mt-5 font-mono text-xs">
             <a
-              href="mailto:contact@example.com"
+              href="mailto:gaelkapimo18@gmail.com"
+              target="_blank"
               class="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 rounded text-zinc-300 hover:text-white transition-all duration-200 hover:scale-105"
             >
               Email Me
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/gael-kapimo-kaniki-4a2389324"
               target="_blank"
               class="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 rounded text-zinc-300 hover:text-white transition-all duration-200 hover:scale-105"
             >
@@ -667,7 +687,7 @@
 
     <!-- FOOTER -->
     <footer class="py-6 text-center text-xs font-mono text-zinc-500">
-      <p>Gaël Kapimo Kaniki — Android Engineer © 2026</p>
+      <p>Gaël KAPIMO KANIKI — Android Engineer © 2026</p>
     </footer>
 
     <!-- JS pour déclencher les animations au défilement -->
@@ -691,5 +711,8 @@
         reveals.forEach((el) => observer.observe(el));
       });
     </script>
+  </body>
+</html>
+t>
   </body>
 </html>
